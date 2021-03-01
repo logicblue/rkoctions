@@ -1,0 +1,13 @@
+name: 'Passthru'
+description: 'Pass an input through to an output'
+inputs:
+  in:
+    description: 'The value to pass in to the output.'
+    required: true
+    default: 'Hello, world!'
+outputs:
+  out:
+    description: 'The value passed in from the input.'
+runs:
+  using: 'node12'
+  main: 'index.js'
